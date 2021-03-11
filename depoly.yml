@@ -1,0 +1,9 @@
+---
+- name: pull image from docker hub
+  hosts: all
+  tasks:
+    - name : deploy on localhost
+      docker_image:
+        name: akshil007/devops-calc
+        source: pull
+...
