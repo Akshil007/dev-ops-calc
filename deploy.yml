@@ -1,9 +1,17 @@
+#---
+#- name: pull image from docker hub
+#  hosts: all
+#  tasks:
+#    - name : deploy on localhost
+#      docker_image:
+#        name: akshil007/devops-calc
+#        source: pull
+#...
 ---
-- name: pull image from docker hub
+- name: Pull and Run docker image
   hosts: all
   tasks:
-    - name : deploy on localhost
+    - name: Pull akshil007/devops-calc
       docker_image:
         name: akshil007/devops-calc
         source: pull
-...
