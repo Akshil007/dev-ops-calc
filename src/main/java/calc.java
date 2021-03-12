@@ -2,9 +2,11 @@ import java.lang.*;
 import java.util.*;
 import java.io.*;
 public class calc {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
 
-        Scanner sc = new Scanner(System.in);
+        BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
+        //Scanner sc = new Scanner(System.in);
+
 
         int choice, num;
         double ans;
@@ -18,12 +20,12 @@ public class calc {
             System.out.println("Press 4 for Power function");
             System.out.println("Press 0 to Exit");
 
-            choice = sc.nextInt();
+            choice = Integer.parseInt(br.readLine());
 
             switch (choice) {
                 case 1:
                     System.out.println("Enter the Number");
-                    num = sc.nextInt();
+                    num = Integer.parseInt(br.readLine());
 
                     try{
                         ans = Math.sqrt(num);
@@ -36,7 +38,7 @@ public class calc {
 
                 case 2:
                     System.out.println("Enter the Number");
-                    num = sc.nextInt();
+                    num = Integer.parseInt(br.readLine());
                     long sum = 1;
                     for(int i=2; i<=num; i++) {
                         sum = sum * i;
@@ -46,7 +48,7 @@ public class calc {
 
                 case 3:
                     System.out.println("Enter the Number");
-                    num = sc.nextInt();
+                    num = Integer.parseInt(br.readLine());
 
                     try{
                         ans = Math.log(num);
@@ -58,9 +60,9 @@ public class calc {
 
                 case 4:
                     System.out.println("Enter the base number");
-                    num = sc.nextInt();
+                    num = Integer.parseInt(br.readLine());
                     System.out.println("Enter the power number");
-                    int power = sc.nextInt();
+                    int power = Integer.parseInt(br.readLine());
 
                     try{
                         ans = Math.pow(num, power);
