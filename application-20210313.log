@@ -1,0 +1,16 @@
+2021-03-13 11:59:16.736 [main] INFO  calc - SQRT of 4=2.0
+2021-03-13 11:59:29.847 [main] INFO  calc - FACT of 34=4926277576697053184
+2021-03-13 11:59:32.788 [main] INFO  calc - Program Finished
+2021-03-13 11:59:58.911 [main] INFO  calc - SQRT of 16=4.0
+2021-03-13 12:00:03.856 [main] INFO  calc - FACT of 120=0
+2021-03-13 12:00:08.242 [main] INFO  calc - Natural log of 1=0.0
+2021-03-13 12:00:10.209 [main] INFO  calc - Program Finished
+2021-03-13 12:01:56.000 [main] INFO  calc - Power of 2with power 12=4096.0
+2021-03-13 12:02:00.495 [main] INFO  calc - SQRT of 2=1.4142135623730951
+2021-03-13 12:02:04.840 [main] INFO  calc - Natural log of 2=0.6931471805599453
+2021-03-13 12:02:06.924 [main] INFO  calc - Program Finished
+2021-03-13 17:33:47.168 [main] INFO  calc - SQRT of 64=8.0
+2021-03-13 17:33:55.930 [main] INFO  calc - FACT of 4=24
+2021-03-13 17:34:02.560 [main] INFO  calc - Natural log of 2=0.6931471805599453
+2021-03-13 17:34:12.986 [main] INFO  calc - Power of 2with power 3=8.0
+2021-03-13 17:34:18.255 [main] INFO  calc - Program Finished
