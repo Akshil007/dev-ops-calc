@@ -96,6 +96,7 @@ public class calc {
     {
         return Math.sqrt(num);
     }
+
     public static long fact(int num)
     {
         long sum = 1;
@@ -113,7 +114,6 @@ public class calc {
     {
         return Math.pow(num, power);
     }
-
 
     public static void  printAns(double ans){
         System.out.println("------------------------------------------------");
